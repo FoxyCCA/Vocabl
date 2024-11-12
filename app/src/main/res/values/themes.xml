@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Vocabl" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:textColor">@color/text_light</item>
+        <item name="background">@color/background_light</item>
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="android:textColorHighlight">@color/primary_light</item>
+        <item name="android:textColorHighlightInverse">@color/primary_light</item>
+        <item name="colorOnPrimaryFixedVariant">@color/primary_light</item>
+        <item name="colorPrimaryDark">@color/primary_light</item>
+        <item name="elevationOverlayColor">@color/primary_light</item>
+        <item name="android:textColorLink">@color/primary_light</item>
+        <item name="colorPrimarySurface">@color/primary_light</item>
+        <item name="colorPrimaryFixedDim">@color/primary_light</item>
+        <item name="colorPrimaryInverse">@color/primary_light</item>
+        <item name="android:colorPrimary">@color/primary_light</item>
+        <item name="android:colorPrimaryDark">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/secondary_light</item>
+        <item name="colorSecondary">@color/secondary_light</item>
+        <item name="colorSecondaryFixedDim">@color/secondary_light</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_light</item>
+        <item name="colorAccent">@color/accent_light</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Vocabl.Light.NoActionBar" parent="Base.Theme.Vocabl" />
+</resources>
